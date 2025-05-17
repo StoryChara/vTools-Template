@@ -63,6 +63,7 @@ const Preview = () => {
                     onCopy={handleCopy}
                     copied={copied.header}
                     sectionKey="header"
+                    style={{ margin: "0 5%" }}
                 />
 
                 <PreviewSection
@@ -71,6 +72,7 @@ const Preview = () => {
                     onCopy={handleCopy}
                     copied={copied.content}
                     sectionKey="content"
+                    style={{}}
                 />
 
                 <hr className="divider"></hr>
@@ -94,6 +96,7 @@ const Preview = () => {
                             onCopy={handleCopy}
                             copied={copied.contact}
                             sectionKey="contact"
+                            style={{}}
                         />
                     </Col>
 
@@ -111,6 +114,7 @@ const Preview = () => {
                     onCopy={handleCopy}
                     copied={copied.speakers}
                     sectionKey="speakers"
+                    style={{}}
                 />
 
                 <hr className="divider" style={{borderTop: "1px solid #a0a0a0", width: "90%"}}></hr>
@@ -121,6 +125,7 @@ const Preview = () => {
                     onCopy={handleCopy}
                     copied={copied.agenda}
                     sectionKey="agenda"
+                    style={{}}
                 />
 
                 <hr className="divider"></hr>
@@ -130,6 +135,7 @@ const Preview = () => {
                     onCopy={handleCopy}
                     copied={copied.footer}
                     sectionKey="footer"
+                    style={{ margin: "0 5%" }}
                 />
 
                 <hr className="divider"></hr>

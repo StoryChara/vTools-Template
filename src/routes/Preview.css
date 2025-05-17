@@ -54,6 +54,7 @@
   border-left: 1px solid #e37222;
   border-right: 1px solid #e37222;
   padding-left: 10px;
+  padding: 0rem 1.5%;
 }
 
 .style-buttons-row {
@@ -83,10 +84,6 @@
     border: 1px solid #2bb4fa;
     outline: none;
     box-shadow: 0 0 15px 2px #2bb4fa;
-}
-
-.preview-section {
-    margin: 0 5% 0% 5%;
 }
 
 .counter {

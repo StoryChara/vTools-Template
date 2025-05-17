@@ -1,14 +1,13 @@
 import parse from "html-react-parser";
 
 const PreviewSection = ({
-    label,
     htmlContent,
     onCopy,
     copied,
-    charCount,
-    sectionKey
+    sectionKey,
+    style
 }) => (
-    <div className="preview-section">
+    <div className="preview-section" style={style}>
         <div className="HTML">
             {parse(htmlContent)}
         </div>
