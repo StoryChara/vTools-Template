@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+
+.custom-navbar {
+    background-color: #263787;
+    border-bottom: 4px solid #1468b5;
+    padding: 0.5rem 0;
+    font-family: 'Teko';
+}
+
+.brand-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo-text {
+    color: #fff;
+    font-size: 2rem;
+    margin-left: 15px;
+    letter-spacing: -0.05rem;
+}
+
+.fa-star {
+    animation: pulse 2s infinite;
+    color: #2bb4fa;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.25); }
+    100% { transform: scale(1); }
+}

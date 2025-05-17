@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+
+.custom-footer {
+    background-color: #e0e0e0;
+    color: #263787;
+    padding: 3rem 0 1rem 0;
+    border-top: 4px solid #263787;
+    font-family: 'Teko';
+}
+
+.footer-section {
+    margin-bottom: 2rem;
+}
+
+.footer-title {
+    font-size: 1.5rem;
+    color: #263787;
+}
+
+.footer-logo i {
+    font-size: 2rem;
+    animation: pulse 2s infinite;
+}
+
+.footer-logo h3 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.social-links a {
+    color: #2bb4fa;
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #2bb4fa;
+    transform: translateY(-5px);
+    text-shadow: 0 0 8px #2bb4fa;
+}
+
+.copyright {
+    border-top: 1px solid #333;
+    padding-top: 1rem;
+    font-size: 1rem;
+    letter-spacing: 0.25rem;
+    font-weight: 500;
+}
+
+.copyright .fa-heart, .fa-copyright {
+    color: #2bb4fa;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
