@@ -78,17 +78,17 @@ const Preview = () => {
                 <hr className="divider"></hr>
 
                 <Row xs={12} className="div-4">
-                    <Col xs={3} className="section-container" style={{ borderLeft: "0px solid #e37222" }}>
+                    <Col md={12} lg={3} className="section-container" style={{ borderLeft: "0px solid #e37222" }}>
                         <h3 className="text-center"><i class="fa-solid fa-clock"></i> DATE AND TIME</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a egestas tellus, a accumsan tortor.</p>
                     </Col>
 
-                    <Col xs={3} className="section-container">
+                    <Col md={12} lg={3} className="section-container">
                         <h3 className="text-center"><i class="fa-solid fa-location-dot"></i> LOCATION</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a egestas tellus, a accumsan tortor.</p>
                     </Col>
 
-                    <Col xs={3} className="section-container">
+                    <Col md={12} lg={3} className="section-container">
                         <h3 className="text-center"><i class="fa-regular fa-envelope"></i> HOSTS</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a egestas tellus, a accumsan tortor.</p>
                         <PreviewSection
@@ -100,7 +100,7 @@ const Preview = () => {
                         />
                     </Col>
 
-                    <Col xs={3} className="section-container" style={{ borderRight: "0px solid #e37222" }}>
+                    <Col md={12} lg={3} className="section-container" style={{ borderRight: "0px solid #e37222" }}>
                         <h3 className="text-center"><i class="fa-solid fa-tags"></i> REGISTRATION</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a egestas tellus, a accumsan tortor.</p>
                     </Col>
