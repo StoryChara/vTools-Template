@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# vTools Event Code Visualizer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Website](https://img.shields.io/badge/Website-vTools%20Template-blue)](https://vtools-template.vercel.app/)
 
-## Available Scripts
+Visualizador interactivo para la copia de código para el registro de eventos en la plataforma IEEE vTools.
 
-In the project directory, you can run:
+## Descripción
 
-### `npm start`
+**vTools Event Code Visualizer** es una aplicación web construida con React y Node.js diseñada para visualizar en tiempo real el código para un registro más estilizado y personalizado, y copiarlo fácilmente para su uso directo en la plataforma oficial de IEEE.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Accede a la aplicación aquí: [vTools Template](https://vtools-template.vercel.app/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Características principales
 
-### `npm test`
+- **Visualización Dinámica de Código**: Visualiza automáticamente el código de la rama seleccionada para el registro del evento.
+- **Copia Rápida al Portapapeles**: Permite copiar el código generado con un solo clic.
+- **Interfaz Responsiva**: Optimizado para dispositivos de escritorio y móviles.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Demo
 
-### `npm run build`
+Puedes probar la aplicación online en: [https://vtools-template.vercel.app/](https://vtools-template.vercel.app/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Tecnologías Utilizadas
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Frontend:** React, HTML5, CSS
+- **Backend:** Node.js
+- **Herramientas adicionales:** JavaScript, [React Hooks](https://react.dev/), [navigator.clipboard API](https://developer.mozilla.org/en-US/docs/Web/API/Clipboard_API)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Instalación local
 
-### `npm run eject`
+1. Clona este repositorio:
+   ```sh
+   git clone https://github.com/StoryChara/vTools-Template.git
+   cd vTools-Template
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Instala dependencias:
+   ```sh
+   npm install
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Ejecutar aplicación:
+   ```sh
+   npm start
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. Accede a `http://localhost:3000` en tu navegador.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Uso
 
-## Learn More
+1. Visualiza el código generado en el área de previsualización.
+2. Haz clic en el botón “Copiar código” para trasladarlo fácilmente a la página de IEEE vTools.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Estructura del Proyecto
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+vtools-event-code-visualizer/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── Footer.css
+│   │   ├── Footer.jsx
+│   │   ├── Navbar.css
+│   │   ├── Navbar.jsx
+│   ├── ramas/
+│   ├── routes/
+│   │   ├── Preview.css
+│   │   ├── Preview.jsx
+│   │   ├── PreviewSections.jsx
+│   ├── App.js
+│   ├── index.js
+│   └── ...
+├── README.md
+├── package.json
+└── ...
+```
