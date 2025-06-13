@@ -85,6 +85,13 @@ const Preview = () => {
 
                     <Col md={12} lg={3} className="section-container">
                         <h3 className="text-center"><i class="fa-solid fa-location-dot"></i> LOCATION</h3>
+                        <PreviewSection
+                            htmlContent={actualStyle.location}
+                            onCopy={handleCopy}
+                            copied={copied.location}
+                            sectionKey="location"
+                            style={{}}
+                        />
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a egestas tellus, a accumsan tortor.</p>
                     </Col>
 

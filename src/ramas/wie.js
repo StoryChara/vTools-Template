@@ -25,8 +25,6 @@ export const styles = {
     contact: `
         <div style="background:#6845ab;color:#fff;text-align:center;padding:1rem"><div style="font-size:1.5rem;font-weight:bold">¡Síguenos en redes!</div><div><a href="https://www.instagram.com/wie_unal/" style="color:#fff">Instagram</a> | <a href="https://www.facebook.com/wieunal/" style="color:#fff">Facebook</a> | <a href="https://co.linkedin.com/company/wie-un" style="color:#fff">LinkedIn</a> | <a href="mailto:wie_fibog@unal.edu.co" style="color:#fff">Email</a></div></div>
     `,
-    location: `
-    `,
     agenda: `
         <div style="color:#6845ab;padding:2rem;margin:1rem">
             <div style="background:#f0ebff;border-left:4px solid #6845ab;padding:1rem;margin:1rem;color:#4a2f82;font-size:1.5rem">
@@ -50,5 +48,15 @@ export const styles = {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc blandit augue lectus, ac mattis dui pharetra et. Morbi placerat metus volutpat metus tempor, sit amet.
             </p>
         </div>
+    `,
+    location: `
+    <div style="color: #6845ab; text-align: center;">
+        <div style="background: #f0ebff; border-left: 4px solid #6845ab; padding: 1rem; text-align: left; font-style: italic; color: #4a2f82; font-size: 1.5rem;"> 
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            <a style="color: #4a2f82; font-size: 1.6rem; font-weight: bold;" href="https://meet.google.com/hhf-scvd-vkx" target="_blank" rel="noopener">
+                In tempus venenatis.
+            </a>
+        </div>
+    </div>
     `
 }
